@@ -8,11 +8,9 @@
         h4{
             color:purple;
         }
-
         ol{
             color: gray;
         }
-
         .id{
             color: blue;
         }
@@ -33,13 +31,41 @@
             background-color: #1cff00;
         }*/
 
+        /*[href *= "ac"]{
+            background-color: #1cff00;
+        }*/
+
+        /*[href = "https://ijse.lk"]{
+            background-color: #fffb00;
+        }*/
+
+        .my-institute[href]{
+            background-color: greenyellow;
+        }
+
+        .ijse:hover{
+            background-color: greenyellow;
+            cursor: pointer;
+        }
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color: purple;
+        }
+        a:hover{
+            color: green;
+        }
+
+        a:active{
+            color: deeppink;
+        }
     </style>
 </head>
 <body>
 <div class = "v">
     <h1 style="color:red; text-decoration: underline">Welcome to CSS</h1>
     <h2>HELLO</h2>
-    <h3 class="id">IJSE</h3>
     <h4>Hello</h4>
     <h4 id="id">Hello</h4>
     <h5 class="bg id">AAA</h5>
@@ -53,7 +79,10 @@
             <a href="https://ijse.lk">IJSE</a>
         </li>
         <li>
-            <a href="http://edupub.gov.lk">Edupub</a>
+            <a href="https://www.bolton.ac.uk/">Bolton</a>
+        </li>
+        <li>
+            <a href="https://www.londonmet.ac.uk/">LMU</a>
         </li>
         <li>
             <a href="https://google.com">Google</a>
@@ -62,6 +91,17 @@
             <a href="https://web.whatsapp.com">Whatsapp</a>
         </li>
     </ol>
+
+    <h1 class="my-institute" href = "https://wwww.ijse.lk">IJSE</h1>
+    <h1 class="my-institute" href = "https://wwww.ijse.lk">IJSE</h1>
+    <h3 class="ijse">Institute of Software Engineering</h3>
+
+    <a href="https://ijse.lk">IJSE</a><br>
+    <a href="https://www.bolton.ac.uk/">Bolton</a><br>
+    <a href="https://www.londonmet.ac.uk/">LMU</a><br>
+    <a href="https://google.com">Google</a><br>
+    <a href="https://web.whatsapp.com">Whatsapp</a><br>
+
 </div>
 </body>
 </html>
