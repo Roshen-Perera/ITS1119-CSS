@@ -3,13 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to CSS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <style>
+        h4{
+            color:purple;
+        }
+
+        ol{
+            color: gray;
+        }
+
+        .id{
+            color: blue;
+        }
+        .bg{
+            background-color: aqua;
+        }
+        #id{
+            color: aquamarine;
+        }
+
+        .v{
+            font-style: italic;
+        }
+        /*[href ^= "https"]{
+            background-color: yellow;
+        }
+        [href $= ".lk"]{
+            background-color: #1cff00;
+        }*/
+
     </style>
 </head>
 <body>
+<div class = "v">
     <h1 style="color:red; text-decoration: underline">Welcome to CSS</h1>
     <h2>HELLO</h2>
-    <h3>IJSE</h3>
+    <h3 class="id">IJSE</h3>
+    <h4>Hello</h4>
+    <h4 id="id">Hello</h4>
+    <h5 class="bg id">AAA</h5>
+    <ol>
+        <li id = "ha">JAVA</li>
+        <li>C++</li>
+        <li>Python</li>
+    </ol>
+    <ol>
+        <li>
+            <a href="https://ijse.lk">IJSE</a>
+        </li>
+        <li>
+            <a href="http://edupub.gov.lk">Edupub</a>
+        </li>
+        <li>
+            <a href="https://google.com">Google</a>
+        </li>
+        <li>
+            <a href="https://web.whatsapp.com">Whatsapp</a>
+        </li>
+    </ol>
+</div>
 </body>
 </html>

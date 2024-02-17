@@ -1,0 +1,12 @@
+h3{
+    color: deeppink;
+    text-decoration: underline;
+}
+
+p{
+    color: blue;
+}
+
+*{
+    font-family: "Segoe UI Semibold";
+}
