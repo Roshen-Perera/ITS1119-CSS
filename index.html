@@ -60,27 +60,78 @@
         input:focus{
             background-color: greenyellow;
         }
-        li:first-child{
+        /*li:first-child{
+            color: red;
+        }
+        li:nth-child(1){
+            color: green;
+        }li:last-child{
+            color: blue;
+        }*/
+
+        /*h2:before{
+            font-style: normal;
+            content: "😂"
+        }*/
+        h2:after{
+            font-style: normal;
+            content: "🤣"
+        }
+        h2::first-letter{
             color: red;
         }
 
-        li:nth-child(3){
-            color: green;
+        li:only-child{
+            color: red;
+        }
+        p:first-line{
+            color: blue;
+            font-weight: bolder;
         }
 
-        li:last-child{
+        input::placeholder{
+            color: red;
+        }
+
+        input::file-selector-button{
+            color: red;
+        }
+
+        input::file-selector-button:hover{
             color: blue;
         }
+
+        ::marker{
+            content: "👌";
+        }
+
+        ::selection{
+            color: red;
+            background-color: blue;
+        }
+
+        .h1{
+            color: red;
+        }
+        
+        #h1{
+            color: blue;
+        }
+
+        [p]{
+            color: aqua;
+        }
+
     </style>
 </head>
 <body>
-<div class = "v">
+<!--<div class = "v">
     <h1 style="color:red; text-decoration: underline">Welcome to CSS</h1>
     <h2>HELLO</h2>
     <h4>Hello</h4>
     <h4 id="id">Hello</h4>
     <h5 class="bg id">AAA</h5>
-    <!--<ol>
+    &lt;!&ndash;<ol>
         <li id = "ha">JAVA</li>
         <li>C++</li>
         <li>Python</li>
@@ -101,7 +152,7 @@
         <li>
             <a href="https://web.whatsapp.com">Whatsapp</a>
         </li>
-    </ol>-->
+    </ol>&ndash;&gt;
 
     <h1 class="my-institute" href = "https://wwww.ijse.lk">IJSE</h1>
     <h1 class="my-institute" href = "https://wwww.ijse.lk">IJSE</h1>
@@ -117,7 +168,7 @@
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name.">
     </form>
-<!--    <ol>
+&lt;!&ndash;    <ol>
         <li>JAVA</li>
         <li>Python</li>
         <li>Go</li>
@@ -137,8 +188,30 @@
         <li>Go</li>
         <li>C++</li>
         <li>JAVA</li>
-    </ol>
+    </ol>&ndash;&gt;
 </div>-->
+<form>
+    <input type="text" placeholder="Enter your ID."><br>
+    <input type="file" placeholder="Choose a file">
+</form>
+<h1 id="h1" class="h1">Hello</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur blanditiis consequatur debitis eos laudantium libero maxime obcaecati odio quaerat quibusdam quis repudiandae ut, veniam. Accusamus asperiores eligendi hic quisquam unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corporis culpa deleniti ducimus earum est eveniet, ex fuga fugit ipsum iure nam nulla pariatur possimus qui, repellat suscipit tempore temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eum quis saepe ut voluptate. Accusamus atque autem deserunt dolor doloremque doloribus dolorum est, eum facilis mollitia nesciunt, soluta vitae! Pariatur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque et ex harum iste? Animi architecto dicta dolore dolorum exercitationem expedita impedit ipsam nisi nulla, quia, tempore temporibus veniam vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores debitis ea fuga iste, nihil optio perspiciatis, quae quasi rem, sint tempore voluptatum. Aperiam beatae distinctio dolore quidem voluptate.</p>
+    <ol>
+        <li>JAVA</li>
+        <li>Python</li>
+        <li>Go</li>
+        <li>C++</li>
+        <li>C#</li>
+        <li>C</li>
+    </ol>
 
+    <ul>
+        <li>JAVA</li>
+        <li>Python</li>
+        <li>Go</li>
+        <li>C++</li>
+        <li>C#</li>
+        <li>C</li>
+    </ul>
 </body>
 </html>
