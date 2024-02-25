@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        /*#div2{
+            width: 500px;
+            height: 300px;
+
+            padding: 20px;
+
+            background-color: lightpink;
+            border: deeppink;
+
+            box-sizing: border-box;
+        }
+
+        span{
+            display: block;
+        }
+
+        div{
+            display: inline;
+        }
+
+        p{
+            display: inline-block;
+        }*/
+        #relative{
+            width: 550px;
+            height: 500px;
+            border: 3px solid red;
+            position: relative;
+        }
+        #absolute{
+            width: 550px;
+            height: 500px;
+            border: 3px solid red;
+            position: relative;
+        }
+        #div1{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: aqua;
+            left:100px;
+        }
+        #div2{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: aqua;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+
+
+        #exsection{
+            width: 1000px;
+            height: 500px;
+            border: 8px solid red;
+            position: relative;
+        }
+        
+        #exmain{
+            width: 800px;
+            height: 300px;
+            border: 8px solid green;
+            position: relative;
+        }
+        #exdiv{
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: orange;
+            position: absolute;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        } 
+        
+    </style>
+</head>
+<body>
+<h2>Relative</h2>
+<section id="relative">
+    <div id="div1"></div>
+</section>
+<hr>
+<h2>Absolute</h2>
+<section id="absolute">
+    <div id="div2"></div>
+</section>
+<hr>
+
+
+
+<h2>Exercise</h2>
+<section id="exsection">
+    <main id="exmain">
+        <div id="exdiv"></div>
+    </main>
+</section>
+</body>
+</html>
