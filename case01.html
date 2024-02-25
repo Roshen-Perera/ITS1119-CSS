@@ -6,9 +6,11 @@
     <title>Document</title>
     <link rel="stylesheets" href="assets/normalize.css">
     <style>
-        section{
+        /* section{
+            width: 2000px;
+            height: 500px;
             position: relative;
-        }
+        } */
     
         #red{
             width: 50%;
@@ -42,7 +44,7 @@
             right: 0;
             bottom: 0;
         }
-
+/* ////////////////////////////////////////////////// */
         #upleftcircle{
             width: 20%;
             aspect-ratio: 1/1;
@@ -94,14 +96,11 @@
             bottom: 0;
             margin: auto;
         }
-
-        
-
-        #circle{
-            width: 200px;
-            height: 200px;
-            background-color: white;
-            border-radius: 100%;
+/* ////////////////////////////////////////////////// */
+        #upleftsquare{
+            width: 50%;
+            aspect-ratio: 1/1;
+            background-color: red;
             position: absolute;
             right: 0;
             left: 0;
@@ -109,11 +108,76 @@
             bottom: 0;
             margin: auto;
         }
+
+        #uprightsquare{
+            width: 50%;
+            aspect-ratio: 1/1;
+            background-color: red;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #downleftsquare{
+            width: 50%;
+            aspect-ratio: 1/1;
+            background-color: red;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #downrightsquare{
+            width: 50%;
+            aspect-ratio: 1/1;
+            background-color: red;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+/* ////////////////////////////////////////////////// */
+        #main-square{
+            width: 10%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #main-circle{
+            width: 50%;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            background-color: rgb(255, 0, 0);
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+/* ////////////////////////////////////////////////// */
+
+        
     </style>
 </head>
 
 <body>
-    <!-- <section id="case01"> -->
+    <section>
         <div id="red">
             <div id="upleftcircle">
                 <div id="upleftsquare"></div>
@@ -134,7 +198,13 @@
                 <div id="downrightsquare"></div>
             </div>
         </div>
-        <div id="circle"></div>
-    <!-- </section> -->
+        <div id="main-square">
+            <div id="main-circle"></div>
+        </div>
+        <div id="upleftcircle-quarter"></div>
+        <div id="uprightcircle-quarter"></div>
+        <div id="dowmleftcircle-quarter"></div>
+        <div id="downrightcircle-quarter"></div>
+    </section>
 </body>
 </html>
