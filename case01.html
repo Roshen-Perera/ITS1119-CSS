@@ -46,7 +46,7 @@
         }
 /* ////////////////////////////////////////////////// */
         #upleftcircle{
-            width: 20%;
+            width: 25%;
             aspect-ratio: 1/1;
             background-color: white;
             border-radius: 100%;
@@ -59,7 +59,7 @@
         }
 
         #uprightcircle{
-            width: 20%;
+            width: 25%;
             aspect-ratio: 1/1;
             background-color: white;
             border-radius: 100%;
@@ -72,7 +72,7 @@
         }
 
         #downleftcircle{
-            width: 20%;
+            width: 25%;
             aspect-ratio: 1/1;
             background-color: white;
             border-radius: 100%;
@@ -85,7 +85,7 @@
         }
 
         #downrightcircle{
-            width: 20%;
+            width: 25%;
             aspect-ratio: 1/1;
             background-color: white;
             border-radius: 100%;
@@ -172,6 +172,43 @@
 
 /* ////////////////////////////////////////////////// */
 
+        #upleftcircle-quarter{
+            width: 10%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 0% 0% 100% 0%;
+        }
+
+        #uprightcircle-quarter{
+            width: 10%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 0% 0% 0% 100%;
+            right: 0;
+        }
+
+        #downleftcircle-quarter{
+            width: 10%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 0% 100% 0% 0%;
+            left: 0;
+            bottom: 0;
+        }
+
+        #downrightcircle-quarter{
+            width: 10%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100% 0% 0% 0%;
+            right: 0;
+            bottom: 0;
+        }
+
         
     </style>
 </head>
@@ -201,9 +238,10 @@
         <div id="main-square">
             <div id="main-circle"></div>
         </div>
+
         <div id="upleftcircle-quarter"></div>
         <div id="uprightcircle-quarter"></div>
-        <div id="dowmleftcircle-quarter"></div>
+        <div id="downleftcircle-quarter"></div>
         <div id="downrightcircle-quarter"></div>
     </section>
 </body>
