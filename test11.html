@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Media Points</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="assets\fontawesome\css\all.min.css">
+    <style>
+        #sec1 {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        #sec1>div {
+            width: 300px;
+            height: 300px;
+            align-self: center;
+            text-align: center;
+            border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        @media all and (max-width: 700px) {
+            section{
+                display: block;
+            }
+            section>div{
+                margin: auto;
+            }
+        }
+
+        span>{
+            color: blue;
+        }
+    </style>
+
+</head>
+    <body>
+
+    <section>
+        <div>
+            <h2>Vision</h2>
+            <span>
+                <i class="fa-solid fa-eye"></i>
+            </span>
+            <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Assumenda commodi deserunt, doloremque ea earum eligendi est excepturi fugiat itaque
+            minus neque odio officiis pariatur repellat sed sit sunt temporibus velit!</p>
+        </div>
+
+        <div>
+            <h2>Mission</h2>
+            <span>
+                <i class="fa-solid fa-gamepad"></i>
+            </span>
+            <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Assumenda commodi deserunt, doloremque ea earum eligendi est excepturi fugiat itaque
+            minus neque odio officiis pariatur repellat sed sit sunt temporibus velit!</p>
+        </div>
+
+        <div>
+            <h2>Values</h2>
+            <span>
+                <i class="fa-solid fa-ghost"></i>
+            </span>
+            <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Assumenda commodi deserunt, doloremque ea earum eligendi est excepturi fugiat itaque
+            minus neque odio officiis pariatur repellat sed sit sunt temporibus velit!</p>
+        </div>
+    </section>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+    </body>
+</html>

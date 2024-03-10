@@ -6,11 +6,6 @@
     <title>Document</title>
     <link rel="stylesheets" href="assets/normalize.css">
     <style>
-        /* section{
-            width: 2000px;
-            height: 500px;
-            position: relative;
-        } */
     
         #red{
             width: 50%;
@@ -209,12 +204,27 @@
             bottom: 0;
         }
 
+    /* ////////////////////////////////////////////////// */
+        #downcircle-half{
+            width: 20%;
+
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
         
+        #upcircle-half{
+            
+        }
     </style>
 </head>
 
 <body>
-    <section>
         <div id="red">
             <div id="upleftcircle">
                 <div id="upleftsquare"></div>
@@ -235,6 +245,7 @@
                 <div id="downrightsquare"></div>
             </div>
         </div>
+
         <div id="main-square">
             <div id="main-circle"></div>
         </div>
@@ -243,6 +254,8 @@
         <div id="uprightcircle-quarter"></div>
         <div id="downleftcircle-quarter"></div>
         <div id="downrightcircle-quarter"></div>
-    </section>
+
+        <div id="upcircle-half"></div>
+        <div id="downcircle-half"></div>
 </body>
 </html>

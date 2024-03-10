@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        aspect-ratio: 1/1;
+        background: red;
+    }
+
+    @media all and (max-width: 1100px){
+        div{
+            background: blue;
+        }
+    }
+    @media all and (max-width: 900px){
+        div{
+            background: rgb(119, 0, 255);
+        }
+    }
+    @media all and (max-width: 700px){
+        div{
+            background: rgb(162, 0, 255);
+        }
+    }
+    @media all and (max-width: 500px){
+        div{
+            background: rgb(225, 0, 255);
+        }
+    }
+</style>
+<body>
+    <div></div>
+</body>
+</html>

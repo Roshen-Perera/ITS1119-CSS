@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            aspect-ratio: 50px;
+            border: solid black;
+        }
+
+        .nav-header > a{
+            color: #000;
+        
+        }
+
+        .nav-header{
+            text-align: right;
+        }
+
+        .side-bar {
+            width: 180px;
+            height: 100%;
+            position: absolute;
+            background-color: rgb(33, 23, 82);
+        }
+
+        #nav{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" id="header">
+        <a href="#home"><img src="https://www.ijse.lk/images/logos/ijse.png" alt="logo" title="logo" width="20%"></a>
+
+        <nav class="nav-header" id="nav-header">
+            <ul id="nav">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="side-bar" id="side-bar">
+        <nav>
+            <div><a href="#home">Home</a></div> 
+            <div><a href="#services">Services</a></div>
+            <div><a href="#contact">Contact</a></div>
+            <div><a href="#about">About Us</a></div>
+        </nav>
+    </div>
+</body>
+</html>
